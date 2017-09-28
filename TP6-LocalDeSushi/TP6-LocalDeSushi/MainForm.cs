@@ -140,7 +140,7 @@ namespace TP6_LocalDeSushi
 
             for (int i = 0; i < cm; i++)
             {
-                string moto_i = String.Format("Moto {0}  --  PTO = {1}", i, pto[i]);
+                string moto_i = String.Format("Moto {0}  --  PTO = {1}", i.ToString(), pto[i].ToString());
 
                 ptoLB.Items.Add(moto_i);
             }

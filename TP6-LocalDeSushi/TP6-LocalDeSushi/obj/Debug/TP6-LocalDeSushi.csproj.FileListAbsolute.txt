@@ -1,1 +1,10 @@
 c:\users\admin\documents\visual studio 2012\Projects\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Debug\TP6-LocalDeSushi.exe.config
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Debug\TP6-LocalDeSushi.exe.config
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Debug\TP6-LocalDeSushi.exe
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Debug\TP6-LocalDeSushi.pdb
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Debug\TP6-LocalDeSushi.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Debug\TP6_LocalDeSushi.MainForm.resources
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Debug\TP6_LocalDeSushi.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Debug\TP6-LocalDeSushi.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Debug\TP6-LocalDeSushi.exe
+C:\Users\Admin\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Debug\TP6-LocalDeSushi.pdb

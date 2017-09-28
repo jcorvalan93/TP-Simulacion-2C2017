@@ -1,0 +1,9 @@
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Release\TP6-LocalDeSushi.exe.config
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Release\TP6-LocalDeSushi.exe
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\bin\Release\TP6-LocalDeSushi.pdb
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Release\TP6-LocalDeSushi.csprojResolveAssemblyReference.cache
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Release\TP6_LocalDeSushi.MainForm.resources
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Release\TP6_LocalDeSushi.Properties.Resources.resources
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Release\TP6-LocalDeSushi.csproj.GenerateResource.Cache
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Release\TP6-LocalDeSushi.exe
+C:\Users\Analia\Documents\GitHub\TP-Simulacion-2C2017\TP6-LocalDeSushi\TP6-LocalDeSushi\obj\Release\TP6-LocalDeSushi.pdb

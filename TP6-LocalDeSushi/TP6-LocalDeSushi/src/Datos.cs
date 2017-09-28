@@ -8,14 +8,12 @@ namespace TP6_LocalDeSushi.src
 {
     public class Datos
     {
-        public const double TIEMPO_ZONA_1 = 1;
-        public const double TIEMPO_ZONA_2 = 1;
-        public const double TIEMPO_ZONA_3 = 1;
-        public const double TIEMPO_ZONA_4 = 1;
+        public const double TIEMPO_ZONA_1 = 5;
+        public const double TIEMPO_ZONA_2 = 8;
+        public const double TIEMPO_ZONA_3 = 12;
+        public const double TIEMPO_ZONA_4 = 15;
 
-        public const double TIEMPO_MENU_1 = 1;
-        public const double TIEMPO_MENU_2 = 1;
-
-        public const double OCURRENCIA_MENU = 1;
+        public const double TIEMPO_MENU_1 = 15;
+        public const double TIEMPO_MENU_2 = 30;
     }
 }

@@ -12,7 +12,19 @@ namespace TP6_LocalDeSushi.src
 
         public double generar_IA()
         {
-            return 0;
+            double ia = 0;
+            var r = random.NextDouble();
+
+            try
+            {
+                ia = 2.664 / (2.0002 * Math.Sqrt(1 / (r - 1)));
+            }
+            catch (Exception)
+            {
+                ia = 0;
+            }
+
+            return ia;
         }
 
         public double generar_TA()
@@ -54,7 +66,7 @@ namespace TP6_LocalDeSushi.src
 
             var r2 = random.NextDouble();
 
-            if (r2 <= Datos.OCURRENCIA_MENU)
+            if (r2 <= 0.73) //hay un 73% de posibilidad de ocurrencia del menu tipo 1
             {
                 ta += Datos.TIEMPO_MENU_1;
             }

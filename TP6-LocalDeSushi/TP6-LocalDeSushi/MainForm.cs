@@ -162,12 +162,13 @@ namespace TP6_LocalDeSushi
             cmNUD.Value = cm_val;
             tfNUD.Value = tf_val;
 
-            paTB.Text = pa.ToString();
-            pecTB.Text = pec.ToString();
+            paTB.Text = pa.ToString("#.##");
+            pecTB.Text = pec.ToString("#.##");
+            pptoTB.Text = (pto.Sum() / cm).ToString("#.##");
 
             for (int i = 0; i < cm; i++)
             {
-                string moto_i = String.Format("Moto {0}  --  PTO = {1}", i.ToString(), pto[i].ToString());
+                string moto_i = String.Format("Moto {0}  --  PTO = {1}", i.ToString(), pto[i].ToString("#.##"));
 
                 ptoLB.Items.Add(moto_i);
             }

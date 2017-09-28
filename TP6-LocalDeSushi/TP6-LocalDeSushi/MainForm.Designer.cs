@@ -41,6 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.cmNUD = new System.Windows.Forms.NumericUpDown();
             this.tfNUD = new System.Windows.Forms.NumericUpDown();
+            this.pptoTB = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cmNUD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tfNUD)).BeginInit();
@@ -76,6 +78,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.pptoTB);
+            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.ptoLB);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.pecTB);
@@ -108,7 +112,7 @@
             // 
             // pecTB
             // 
-            this.pecTB.Location = new System.Drawing.Point(155, 73);
+            this.pecTB.Location = new System.Drawing.Point(144, 73);
             this.pecTB.Name = "pecTB";
             this.pecTB.Size = new System.Drawing.Size(100, 20);
             this.pecTB.TabIndex = 8;
@@ -116,7 +120,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(152, 39);
+            this.label3.Location = new System.Drawing.Point(141, 39);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 7;
@@ -162,6 +166,22 @@
             this.tfNUD.Size = new System.Drawing.Size(120, 20);
             this.tfNUD.TabIndex = 7;
             // 
+            // pptoTB
+            // 
+            this.pptoTB.Location = new System.Drawing.Point(270, 73);
+            this.pptoTB.Name = "pptoTB";
+            this.pptoTB.Size = new System.Drawing.Size(100, 20);
+            this.pptoTB.TabIndex = 12;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(267, 39);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(39, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "PPTO:";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,6 +220,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.NumericUpDown cmNUD;
         private System.Windows.Forms.NumericUpDown tfNUD;
+        private System.Windows.Forms.TextBox pptoTB;
+        private System.Windows.Forms.Label label6;
     }
 }
 

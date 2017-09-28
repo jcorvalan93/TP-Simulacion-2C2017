@@ -20,7 +20,7 @@ namespace TP6_LocalDeSushi.src
 
             try
             {
-                ia = 2.6664 / (Math.Pow(((1/r) - 1), 2.2002));
+                ia = 2.6664 / (Math.Pow(((1 / r) - 1), (1 / 2.2002)));
             }
             catch (Exception)
             {

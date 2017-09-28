@@ -62,6 +62,15 @@ namespace TP6_LocalDeSushi
             }
         }
 
+        public void borrar_todo()
+        {
+            cmNUD.Value = 0;
+            tfNUD.Value = 0;
+            paTB.Text = "";
+            pecTB.Text = "";
+            ptoLB.Items.Clear();
+        }
+
         private void simularBtn_Click(object sender, EventArgs e)
         {
             try
@@ -81,8 +90,7 @@ namespace TP6_LocalDeSushi
 
         private void ejecutar_sumilacion()
         {
-            do
-            {
+            Start: 
                 t = tpll;
                 ia = aux.generar_IA(); //IA
                 tpll += ia;
@@ -91,7 +99,7 @@ namespace TP6_LocalDeSushi
                 if (ta == 0)
                 {
                     //VUELVO AL COMIENZO
-                    continue;
+                    //goto Start;
                 }
                 else
                 {
@@ -106,35 +114,54 @@ namespace TP6_LocalDeSushi
                     }
                     else
                     {
-                        if (!aux.arrepentimiento(tc_min, t))
+                        if (aux.arrepentimiento(tc_min, t))
+                        {
+                            ca++;
+                            //goto Start;
+                        }
+                        else
                         {
                             //NO HUBO ARREPENTIMIENTO
                             ste += (tc[i_min] - t);
                             tc[i_min] += ta;
-                            ca++;
                         }
                     }
                 }
-            } while (t <= tf);
+
+                if (t <= tf)
+                {
+                    goto Start;
+                }
+                else
+                {
+                    return;
+                }
         }
 
         private void procesar_resultados()
         {
-            if (ca != 0)
-                pec = ste / ca;
+            if ((ct - ca) != 0)
+                pec = ste / (ct - ca);
             else
                 pec = 0;
 
             pto = aux.calcular_PTO(cm, t, sto);
 
             if (ct != 0)
-                pa = (ta * 100) / ct;
+                pa = (ca * 100) / ct;
             else
                 pa = 0;
         }
 
         private void imprimir_resultados()
         {
+            var cm_val = cmNUD.Value;
+            var tf_val = tfNUD.Value;
+            borrar_todo();
+
+            cmNUD.Value = cm_val;
+            tfNUD.Value = tf_val;
+
             paTB.Text = pa.ToString();
             pecTB.Text = pec.ToString();
 

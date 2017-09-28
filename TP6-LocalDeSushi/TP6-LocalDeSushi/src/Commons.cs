@@ -98,7 +98,7 @@ namespace TP6_LocalDeSushi.src
             double tc_min = tc[0];
             int i_min = 0;
 
-            for (int i = 1; i < (cm - 1); i++)
+            for (int i = 0; i < cm; i++)
             {
                 double tc_i = tc[i];
 

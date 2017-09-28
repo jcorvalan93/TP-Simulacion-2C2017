@@ -28,16 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.label1 = new System.Windows.Forms.Label();
             this.simularBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ptoLB = new System.Windows.Forms.ListBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.pecTB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.paTB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.ptoLB = new System.Windows.Forms.ListBox();
             this.cmNUD = new System.Windows.Forms.NumericUpDown();
             this.tfNUD = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
@@ -88,6 +89,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Resultados:";
             // 
+            // ptoLB
+            // 
+            this.ptoLB.FormattingEnabled = true;
+            this.ptoLB.Location = new System.Drawing.Point(93, 117);
+            this.ptoLB.Name = "ptoLB";
+            this.ptoLB.Size = new System.Drawing.Size(230, 95);
+            this.ptoLB.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(23, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "PTO(i):";
+            // 
             // pecTB
             // 
             this.pecTB.Location = new System.Drawing.Point(155, 73);
@@ -120,26 +138,14 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "PA:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(23, 117);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "PTO(i):";
-            // 
-            // ptoLB
-            // 
-            this.ptoLB.FormattingEnabled = true;
-            this.ptoLB.Location = new System.Drawing.Point(93, 117);
-            this.ptoLB.Name = "ptoLB";
-            this.ptoLB.Size = new System.Drawing.Size(230, 95);
-            this.ptoLB.TabIndex = 10;
-            // 
             // cmNUD
             // 
             this.cmNUD.Location = new System.Drawing.Point(54, 43);
+            this.cmNUD.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
             this.cmNUD.Name = "cmNUD";
             this.cmNUD.Size = new System.Drawing.Size(120, 20);
             this.cmNUD.TabIndex = 6;
@@ -147,6 +153,11 @@
             // tfNUD
             // 
             this.tfNUD.Location = new System.Drawing.Point(190, 43);
+            this.tfNUD.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
             this.tfNUD.Name = "tfNUD";
             this.tfNUD.Size = new System.Drawing.Size(120, 20);
             this.tfNUD.TabIndex = 7;
@@ -162,6 +173,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.simularBtn);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Delivery de sushi";

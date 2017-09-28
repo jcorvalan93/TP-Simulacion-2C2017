@@ -15,9 +15,12 @@ namespace TP6_LocalDeSushi.src
             double ia = 0;
             var r = random.NextDouble();
 
+            if (r == 0 || r == 1)
+                return ia;
+
             try
             {
-                ia = 2.664 / (2.0002 * Math.Sqrt(1 / (r - 1)));
+                ia = 2.6664 / (Math.Pow(((1/r) - 1), 2.2002));
             }
             catch (Exception)
             {

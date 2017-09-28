@@ -34,7 +34,6 @@ namespace TP6_LocalDeSushi
         public MainForm()
         {
             InitializeComponent();
-            inicializar_variables();
             aux = new Commons();
         }
 
@@ -69,6 +68,7 @@ namespace TP6_LocalDeSushi
             {
                 cm = Convert.ToInt32(cmNUD.Value);
 
+                inicializar_variables();
                 ejecutar_sumilacion();
                 procesar_resultados();
                 imprimir_resultados();
